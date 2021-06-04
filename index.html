@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Starbucks</title>
+  <!--CSS Stylesheets-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <!--FontAwesome-->
+  <script src="https://kit.fontawesome.com/dd454af853.js" crossorigin="anonymous"></script>
+  <!--Bootstrap Scripts-->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  <!--Google Fonts-->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <section id="intro">
+    <div class="container-fluid intro">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#"><img class="logo" src="images/logo.png"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto mr-5">
+            <li class="nav-item mr-5">
+              <a class="nav-link" href="#menu">Menu</a>
+            </li>
+            <li class="nav-item mr-5">
+              <a class="nav-link" href="#carousel">What's New</a>
+            </li>
+            <li class="nav-item mr-5">
+              <a class="nav-link" href="#rewards">Rewards</a>
+            </li>
+            <li class="nav-item mr-5">
+              <a class="nav-link" href="#social-media">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="main-heading-container">
+            <h1 class="main-heading"> It's not just coffee<br>It's <span class="starbucks">Starbucks</span></h1>
+            <button type="button" class="btn btn-outline-light heading-button"><i class="fas fa-play icon"></i><span class="button-text"><a class="get-started" href=#menu>Get Started</a></span></button>
+            <button type="button" class="btn btn-outline-light heading-button"><i class="fas fa-map-marker-alt icon"></i><span class="button-text">Find a Store</span></button>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="main-img-holder">
+            <img class="cup" src="images/img1.png">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="menu">
+    <div class="container-fluid">
+      <h2 class="menu-heading"> The Best Way to Start Your Morning!</h2>
+      <div class="row menu-row">
+        <div class="col-lg-3 card-container">
+          <div class="card h-100">
+            <a href="#"><img class="menu-drinks latte card-img-top img-fluid" src="images/latte.png" alt="latte-image"></a>
+            <div class="card-body">
+              <h5 class="card-title">Latte</h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 card-container">
+          <div class="card h-100">
+            <a href="#"><img class="menu-drinks card-img-top" src="images/cappuccino.png" alt="cappuccino-image"></a>
+            <div class="card-body toffee">
+              <h5 class="card-title">Cappuccino</h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 card-container">
+          <div class="card h-100">
+            <a href="#"><img class="menu-drinks card-img-top" src="images/toffee.png" alt="frappuccino-image"></a>
+            <div class="card-body">
+              <h5 class="card-title">Frappuccino</h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 card-container">
+          <div class="card h-100">
+            <a href="#"><img class="menu-drinks card-img-top" src="images/smoothie.png" alt="smoothie-image"></a>
+            <div class="card-body">
+              <h5 class="card-title">Smoothie</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="carousel">
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" data-interval="5000">
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item one active container-fluid">
+            <h3 class="frappuccino-heading green"> Try Our New Frappuccino Flavours!</h3>
+            <img class="frappuccino-image d-block mx-auto" src="images/img1.png" alt="First slide">
+          </div>
+          <div class="carousel-item two container-fluid">
+            <h3 class="frappuccino-heading peach"> Try Our New Frappuccino Flavours!</h3>
+            <img class="frappuccino-image d-block mx-auto" src="images/img2.png" alt="Second slide">
+          </div>
+          <div class="carousel-item three container-fluid">
+            <h3 class="frappuccino-heading pink"> Try Our New Frappuccino Flavours!</h3>
+            <img class="frappuccino-image d-block mx-auto" src="images/img3.png" alt="Third slide">
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <section id="rewards">
+    <div class="container-fluid text-center">
+      <div class="rewards-container">
+        <div class="column-one">
+          <h2 class="rewards-heading">Be Rewarded for Every Sip</h2>
+          <div>
+            <i class="fas fa-star fa-7x"></i>
+            <p class="rewards-text">Collect stars. Every £1 equals 3 stars.</p>
+          </div>
+          <div>
+            <i class="fas fa-coffee fa-7x"></i>
+            <p class="rewards-text">When you have 150 stars, have a free drink on the house.</p>
+          </div>
+          <div>
+            <i class="fas fa-gifts fa-7x"></i>
+            <p class="rewards-text">Collect 450 stars to reach Gold Level. Enjoy extra shots of espresso, dairy alternatives and whipped cream. Free!</p>
+          </div>
+        </div>
+        <div class="column-two">
+          <img class="rewards-image img-fluid" src="images/rewards.png" alt="rewards image">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="app">
+    <div class="container-fluid text-center">
+      <div class="app-container">
+        <h2 class="app-heading">Keep Track of Your Rewards with the Starbucks App!</h2>
+        <div class="button-group">
+          <a href="https://www.apple.com/uk/ios/app-store/"><button type="button" class="btn btn-outline-light btn-lg app-button"><i class="fab fa-apple"></i>App Store</button></a>
+          <a href="https://play.google.com/store"><button type="button" class="btn btn-outline-light btn-lg app-button"><i class="fab fa-google-play"></i>Google Play</button></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="social-media">
+    <div class="container-fluid text-center">
+      <div class="social-media-container">
+        <a href="https://en-gb.facebook.com/"><i class="fab fa-facebook-square fa-3x social-media-button"></i></a>
+        <a href="https://twitter.com/?lang=en-gb"><i class="fab fa-twitter-square fa-3x social-media-button"></i></a>
+        <a href="https://www.instagram.com/"><i class="fab fa-instagram-square fa-3x social-media-button"></i></a>
+        <a href="https://www.pinterest.co.uk/"><i class="fab fa-pinterest-square fa-3x social-media-button"></i></a>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

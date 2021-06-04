@@ -1,0 +1,252 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+a {
+  color:inherit;
+}
+
+a:hover {
+  color:inherit;
+  text-decoration:none;
+}
+
+/*****Headings*****/
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Poppins', sans-serif;
+}
+
+.main-heading {
+  font-size:4rem;
+}
+
+.menu-heading, .rewards-heading {
+  font-size: 3rem;
+  text-align: center;
+  color: #2e7858;
+  margin:0 0 6.2% 0;
+}
+
+.frappuccino-heading {
+  text-align: center;
+  font-size: 2.5rem;
+  padding-bottom:5%;
+}
+
+.green {
+  color:#ffff99;
+}
+
+.peach {
+ color:#ffa69e;
+}
+
+.pink {
+ color:#c7e9fb;
+}
+
+.app-heading {
+  font-size: 2.5rem;
+  margin:0 0 2% 0;
+  color:#ffff99;
+}
+
+/*****Containers*****/
+
+.container-fluid {
+  padding:5% 10%;
+}
+
+#intro .container-fluid {
+  padding:1% 10%;
+  background-image:linear-gradient(to left bottom, #2e7858, #ffff99);
+  background-position:right;
+  background-size: 74% auto;
+  background-repeat: no-repeat;
+}
+
+#app .container-fluid {
+  background-image:linear-gradient(to left bottom, #2e7858, #ffff99);
+}
+
+/*****Navbar*****/
+
+.navbar {
+  font-weight: bold;
+  color:#000;
+}
+
+/*****Intro Section*****/
+
+#intro .row {
+  padding:5% 0 0 0;
+}
+
+.heading-button {
+  border-color:#000;
+  border-radius:20px;
+  margin:15px 3.5px;
+}
+
+.heading-button:hover {
+  border-color:#000;
+}
+
+.button-text {
+  color:#000;
+  margin: 0 0 0 10px;
+  font-weight: bold;
+}
+
+.icon{
+  color:#036635;
+}
+
+.main-heading-container {
+  padding: 20% 0 0 0;
+}
+
+.starbucks {
+  color:#036635;
+}
+
+.main-img-holder {
+  padding: 5% 10% 0 0;
+  display:flex;
+  justify-content: center;
+}
+
+.cup {
+  padding:0 0 0 10%;
+}
+
+@media (max-width:991px) {
+  .row {
+    text-align: center;
+  }
+
+  #intro .container-fluid {
+      background-size: 100%;
+  }
+
+  .main-heading-container {
+    padding:5% 0 0 0;
+  }
+}
+
+/*****Menu Section*****/
+
+.menu-row {
+  text-align: center;
+}
+
+.products {
+  background-image:linear-gradient(to left bottom, #2e7858, #ffff99);
+  border-radius:20px;
+  height:150%;
+}
+
+.card {
+  border-radius:20px;
+}
+
+.menu-drinks {
+  max-height:336px;
+  max-width:200px;
+}
+
+.latte {
+  transform: translateX(-10px);
+}
+
+@media (max-width:991px) {
+  .card-container {
+    margin-top:10px;
+  }
+}
+
+/*****Carousel Section*****/
+
+ .carousel-item.one {
+   background-image:linear-gradient(to left bottom, #2e7858, #ffff99);
+ }
+
+ .carousel-item.two {
+  background-image:linear-gradient(to left bottom, #ffa69e, #861657);
+ }
+
+ .carousel-item.three {
+   background-image:linear-gradient(to left bottom, #e61d8c, #c7e9fb);
+ }
+
+ @media (min-width:991px) {
+   .frappuccino-image {
+     width:25%;
+   }
+ }
+
+ @media (max-width:991px) {
+   .frappuccino-image {
+     width:50%;
+     margin-bottom:50px;
+   }
+ }
+
+ /*****Rewards Section*****/
+
+ .rewards-text {
+   margin:25px;
+ }
+
+.rewards-container {
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.column-one {
+  flex-basis: 0;
+  flex-grow:1;
+}
+
+.column-two {
+  flex-basis: 0;
+  flex-grow:1;
+}
+
+.rewards-image {
+  min-height:450px;
+  min-width:450px;
+}
+
+@media (max-width:991px) {
+  .rewards-container {
+    flex-direction:column;
+  }
+
+  .rewards-image {
+    max-height:600px;
+  }
+}
+
+/*****App Section*****/
+
+.app-button {
+  margin: 20px 5px;
+  width:250px;
+}
+
+.fa-apple {
+  margin-right:10px;
+}
+
+.fa-google-play {
+  margin-right:10px;
+}
+
+/*****Social Media Section*****/
+
+.social-media-button {
+  margin: 0 10px;
+}
